@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html,
+body,
+:root {
+  height: 100%;
+
+
+
+}
+
+.desc-become-a-host {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #6a6a6a;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  color: #717171;
+  font-weight: 400;
+}
+
+h2,
+h1 {
+  color: #222222;
+}
+
+@screen md {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .desc-become-a-host {
+    font-size: 1.25rem;
+
+  }
+}
+
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+
+  }
+}
